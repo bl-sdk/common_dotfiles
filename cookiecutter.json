@@ -1,0 +1,11 @@
+{
+    "_jinja2_env_vars": {
+        "lstrip_blocks": true,
+        "trim_blocks": true
+    },
+    "_extensions": ["cookiecutter.extensions.SlugifyExtension"],
+    "project_name": "",
+    "__project_slug": "{{ cookiecutter.project_name | slugify(separator='_') }}",
+    "include_cpp": true,
+    "include_py": true
+}

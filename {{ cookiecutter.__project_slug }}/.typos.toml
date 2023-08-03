@@ -1,0 +1,14 @@
+[files]
+extend-exclude = [
+{% if cookiecutter.include_cpp %}
+    "libs/fmt",
+    "libs/minhook",
+    "libs/pybind11",
+    "libs/unrealsdk/libs",
+{% endif %}
+    "LICENSE",
+    ".typos.toml"
+]
+
+[default.extend-words]
+UE = "UE"
