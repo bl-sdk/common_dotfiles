@@ -25,3 +25,6 @@ CTestTestfile.cmake
 _deps
 CMakeUserPresets.json
 {% endif %}
+{% if cookiecutter.include_py %}
+__pycache__
+{% endif %}
