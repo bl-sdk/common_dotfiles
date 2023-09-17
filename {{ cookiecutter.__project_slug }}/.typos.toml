@@ -1,10 +1,9 @@
 [files]
 extend-exclude = [
 {% if cookiecutter.include_cpp %}
-    "libs/fmt",
-    "libs/minhook",
-    "libs/pybind11",
-    "libs/unrealsdk/libs",
+    "fmt",
+    "minhook",
+    "pybind11",
 {% endif %}
     "LICENSE",
     ".typos.toml"
