@@ -9,5 +9,10 @@ extend-exclude = [
     ".typos.toml"
 ]
 
+{% if cookiecutter.include_cpp %}
+[default.extend-identifiers]
+llibgcc_s_seh = "llibgcc_s_seh"
+{% endif %}
+
 [default.extend-words]
 UE = "UE"
