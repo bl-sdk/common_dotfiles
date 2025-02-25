@@ -11,6 +11,7 @@ RUN <<EOF
         llvm                \
         msitools            \
         ninja               \
+        openssh             \
         perl                \
         python3             \
         py3-requests
@@ -58,6 +59,7 @@ RUN <<EOF
         mingw-w64-gcc       \
         msitools            \
         ninja               \
+        openssh             \
         py3-requests        \
         python3
 EOF
