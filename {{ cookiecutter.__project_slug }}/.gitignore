@@ -1,5 +1,6 @@
 .vs
 .vscode
+.idea
 
 {% if cookiecutter.include_cpp %}
 # C/C++ excludes
