@@ -1,6 +1,7 @@
 .vs
 .vscode
 .idea
+.nvim.lua
 
 {% if cookiecutter.include_cpp %}
 # C/C++ excludes
